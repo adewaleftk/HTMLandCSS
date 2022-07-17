@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(233, 34, 233);
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    background-color: #B2D6FF;
+    padding: 10px;
+    border-bottom: 1px solid yellow;
+}
+
+
+.container {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+.you {
+    font-size: 40px;
+    color: red;
+    font: bold;
+    font-style: oblique;
+}
+
+ul {
+    text-align: left;
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: disc;
+    text-align: left;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:visited:active {
+    color: red;
+}
+
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  
+}
